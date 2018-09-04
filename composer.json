@@ -1,0 +1,13 @@
+{
+    "name": "hety/alidayu-sms-laravel",
+    "description": "ali dayu send message for laravel packages",
+    "type": "library",
+    "authors": [
+        {
+            "name": "fxwb",
+            "email": "barmpay@zdpush.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
