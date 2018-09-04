@@ -1,13 +1,21 @@
 {
-    "name": "hety/alidayu-sms-laravel",
-    "description": "ali dayu send message for laravel packages",
+    "name": "hety/alisms",
+    "description": "alidayu send message",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "fxwb",
-            "email": "barmpay@zdpush.com"
+            "name": "hety",
+            "email": "hety134@163.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "autoload":{
+        "psr-4": {
+            "Hety\\AliSms\\":"src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+
+    }
 }
