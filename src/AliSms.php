@@ -77,7 +77,7 @@ class AliSms
      * @param string|null $smsUpExtendCode [optional] 选填，上行短信扩展码（扩展码字段控制在7位或以下，无特殊需求用户请忽略此字段）
      * @return stdClass
      */
-    public static function sendSms( $templateCode, $phoneNumbers, $templateParam = null, $outId = null, $smsUpExtendCode = null) {
+    public  function sendSms( $templateCode, $phoneNumbers, $templateParam = null, $outId = null, $smsUpExtendCode = null) {
         // 初始化SendSmsRequest实例用于设置发送短信的参数
         $request = new SendSmsRequest();
         // 必填，设置雉短信接收号码
